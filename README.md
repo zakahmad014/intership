@@ -22,3 +22,14 @@ BPR (General): Learns basic patterns of who gets hired where.
 DeepFM (Context-Aware): Looks at the full resume (Experience, Education) and Job details (Salary, Location) to make highly accurate matches.
 
 CKE (Knowledge-Based): Turns the job market into a "Knowledge Graph", discovering hidden semantic links between jobs, industries, and salaries.
+
+How to Run the Project:
+
+open cmd in folder path and type this command:
+py run_all_models.py
+
+Compare the Results (TensorBoard):
+To visualize the learning curves and see which model performs best, type this command:
+
+tensorboard --logdir=log_tensorboard
+Open http://localhost:6006/ in your browser.
