@@ -6,7 +6,7 @@ task 3 :
 test
 
 task 4 :
-i used the dataset was designed to predict an exact salary based on a person's experience and skills.
+i used the dataset from kaggle was designed to predict an exact salary based on a person's experience and skills.
 
 RecBole is a Recommendation library (like Netflix or Amazon algorithms), not a regression tool. It cannot predict continuous numbers like $10000.
 Instead of predicting the salary,i transformed the data into a Reverse Job Matcher. Now, we feed the system the user's skills + their desired salary bracket, and the AI recommends the Top 10 Job Titles and Industries that perfectly match their profile!
