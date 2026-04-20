@@ -61,6 +61,7 @@ Training Time: FM took only 17 seconds, whereas xDeepFM took 3.8 minutes (13x sl
 The Decision:
    
 For Maximum Accuracy: xDeepFM is the winner. It successfully captured the most complex feature interactions early in training.
+For Practical Production (Recommended): The classic FM model is the smartest choice. It achieved nearly identical accuracy to xDeepFM (0.0091 vs 0.0093) but trained 13 times faster. This makes FM highly scalable and cost-effective for large datasets.
 
 <img width="1268" height="582" alt="task5_loss_train" src="https://github.com/user-attachments/assets/45fb3cae-bcb8-49c4-9064-3f12935ff9a8" />
 <img width="1264" height="572" alt="task5_valid_score" src="https://github.com/user-attachments/assets/06b88dd3-4155-4a2a-8a70-c1e7c4c7470d" />
@@ -95,22 +96,10 @@ xDeepFM wins in Jobs (Hard Matching): In Task 5, job requirements are strict (e.
 
 DeepFM wins in Courses (Soft Matching): DeepFM proved to be the most versatile model. Its combination of low-order (FM) and high-order (DNN) interactions allowed it to perfectly capture the flexible, interest-based nature of course selection.
 
-Conclusion:
+Conclusion:</br>
 To build a unified Career Platform that recommends both Jobs and Training Courses, DeepFM is the smartest choice.
 It offers the best balance of accuracy and stability across both strict and flexible data domains.
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-For Practical Production (Recommended): The classic FM model is the smartest choice. It achieved nearly identical accuracy to xDeepFM (0.0091 vs 0.0093) but trained 13 times faster. This makes FM highly scalable and cost-effective for large datasets.
