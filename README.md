@@ -58,7 +58,7 @@ DeepFM: 0.0083
 
 Training Time: FM took only 17 seconds, whereas xDeepFM took 3.8 minutes (13x slower) due to its complex CIN architecture.
 
-2. The Decision:
+The Decision:
    
 For Maximum Accuracy: xDeepFM is the winner. It successfully captured the most complex feature interactions early in training.
 
