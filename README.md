@@ -2,12 +2,12 @@ name: ahmad abdulkarim
 id: 202211426
 
 # intership
-task 3 : 
+<h2>task 3 : </h2>
 test
 </br>
 </br>
 
-task 4 :
+<h2>task 4 :</h2>
 </br>
 i used the dataset from kaggle was designed to predict an exact salary based on a person's experience and skills.
 
@@ -41,7 +41,7 @@ Open http://localhost:6006/ in your browser.
 
 
 
-task 5 :
+<h2>task 5 :</h2>
 </br>
 
 I have completed the evaluation of four Context-Aware models (FM, DeepFM, xDeepFM, DCN) on my dataset using RecBole. To ensure rapid prototyping, all models were trained for 5 Epochs on a GPU.
@@ -69,7 +69,7 @@ For Maximum Accuracy: xDeepFM is the winner. It successfully captured the most c
 </br>
 </br>
 
-<b>task 6 :</b>  Comparative Analysis (Jobs vs. Courses Recommendations)
+<h2>task 6 :</h2>  Comparative Analysis (Jobs vs. Courses Recommendations)
 </br>
 I processed and trained a new related dataset (Udemy Courses) using the exact same setup as Task 5 (5 Epochs, GPU) to compare how our models perform across two interconnected HR domains: Job Matching (Task 5) vs. Course Matching (Task 6).
 
