@@ -4,8 +4,11 @@ id: 202211426
 # intership
 task 3 : 
 test
+</br>
+</br>
 
 task 4 :
+</br>
 i used the dataset from kaggle was designed to predict an exact salary based on a person's experience and skills.
 
 RecBole is a Recommendation library (like Netflix or Amazon algorithms), not a regression tool. It cannot predict continuous numbers like $10000.
@@ -32,11 +35,14 @@ Compare the Results (TensorBoard):
 To visualize the learning curves and see which model performs best, type this command:
 tensorboard --logdir=log_tensorboard
 Open http://localhost:6006/ in your browser.
-
+</br>
+</br>
+</br>
 
 
 
 task 5 :
+</br>
 
 I have completed the evaluation of four Context-Aware models (FM, DeepFM, xDeepFM, DCN) on my dataset using RecBole. To ensure rapid prototyping, all models were trained for 5 Epochs on a GPU.
 
@@ -60,9 +66,11 @@ For Maximum Accuracy: xDeepFM is the winner. It successfully captured the most c
 <img width="1264" height="572" alt="task5_valid_score" src="https://github.com/user-attachments/assets/06b88dd3-4155-4a2a-8a70-c1e7c4c7470d" />
 </br>
 </br>
-
+</br>
+</br>
 
 <b>task 6 :</b>  Comparative Analysis (Jobs vs. Courses Recommendations)
+</br>
 I processed and trained a new related dataset (Udemy Courses) using the exact same setup as Task 5 (5 Epochs, GPU) to compare how our models perform across two interconnected HR domains: Job Matching (Task 5) vs. Course Matching (Task 6).
 
 
@@ -78,8 +86,8 @@ DCN: 0.0000 (Failed to converge, extremely high Training Loss ~75)
 <img width="1247" height="532" alt="task6_loss_train" src="https://github.com/user-attachments/assets/604e2430-8a7c-47a1-8aa8-eea3caa094d7" />
 <img width="1259" height="551" alt="task6_valid_score" src="https://github.com/user-attachments/assets/2cdd16e7-5429-4f7b-af5c-dd1aa495fc55" />
 
-
-
+</br>
+</br>
 
 Comparative Analysis (Jobs vs. Courses): 
 
