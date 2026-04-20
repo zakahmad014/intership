@@ -96,7 +96,7 @@ xDeepFM wins in Jobs (Hard Matching): In Task 5, job requirements are strict (e.
 
 DeepFM wins in Courses (Soft Matching): DeepFM proved to be the most versatile model. Its combination of low-order (FM) and high-order (DNN) interactions allowed it to perfectly capture the flexible, interest-based nature of course selection.
 
-Conclusion:</br>
+Conclusion:</br></br>
 To build a unified Career Platform that recommends both Jobs and Training Courses, DeepFM is the smartest choice.
 It offers the best balance of accuracy and stability across both strict and flexible data domains.
 
