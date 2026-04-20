@@ -59,7 +59,9 @@ For Maximum Accuracy: xDeepFM is the winner. It successfully captured the most c
 <img width="1268" height="582" alt="task5_loss_train" src="https://github.com/user-attachments/assets/45fb3cae-bcb8-49c4-9064-3f12935ff9a8" />
 <img width="1264" height="572" alt="task5_valid_score" src="https://github.com/user-attachments/assets/06b88dd3-4155-4a2a-8a70-c1e7c4c7470d" />
 
-task 6 :  Comparative Analysis (Jobs vs. Courses Recommendations)
+
+
+<b>task 6 :</b>  Comparative Analysis (Jobs vs. Courses Recommendations)
 I processed and trained a new related dataset (Udemy Courses) using the exact same setup as Task 5 (5 Epochs, GPU) to compare how our models perform across two interconnected HR domains: Job Matching (Task 5) vs. Course Matching (Task 6).
 
 
@@ -74,6 +76,8 @@ xDeepFM: 0.0000 (Failed to generalize, score collapsed)
 DCN: 0.0000 (Failed to converge, extremely high Training Loss ~75)
 <img width="1247" height="532" alt="task6_loss_train" src="https://github.com/user-attachments/assets/604e2430-8a7c-47a1-8aa8-eea3caa094d7" />
 <img width="1259" height="551" alt="task6_valid_score" src="https://github.com/user-attachments/assets/2cdd16e7-5429-4f7b-af5c-dd1aa495fc55" />
+
+
 
 
 Comparative Analysis (Jobs vs. Courses): 
