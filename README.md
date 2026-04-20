@@ -40,7 +40,8 @@ task 5 :
 
 I have completed the evaluation of four Context-Aware models (FM, DeepFM, xDeepFM, DCN) on my dataset using RecBole. To ensure rapid prototyping, all models were trained for 5 Epochs on a GPU.
 
-1. Key Results (At Epoch 5):
+Key Results (At Epoch 5):
+   
 xDeepFM: 0.0093 (Highest Validation Score)
 
 FM: 0.0091 (Very close second)
@@ -52,6 +53,7 @@ DeepFM: 0.0083
 Training Time: FM took only 17 seconds, whereas xDeepFM took 3.8 minutes (13x slower) due to its complex CIN architecture.
 
 2. The Decision:
+   
 For Maximum Accuracy: xDeepFM is the winner. It successfully captured the most complex feature interactions early in training.
 
 <img width="1268" height="582" alt="task5_loss_train" src="https://github.com/user-attachments/assets/45fb3cae-bcb8-49c4-9064-3f12935ff9a8" />
