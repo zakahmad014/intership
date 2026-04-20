@@ -58,7 +58,8 @@ For Maximum Accuracy: xDeepFM is the winner. It successfully captured the most c
 
 <img width="1268" height="582" alt="task5_loss_train" src="https://github.com/user-attachments/assets/45fb3cae-bcb8-49c4-9064-3f12935ff9a8" />
 <img width="1264" height="572" alt="task5_valid_score" src="https://github.com/user-attachments/assets/06b88dd3-4155-4a2a-8a70-c1e7c4c7470d" />
-
+</br>
+</br>
 
 
 <b>task 6 :</b>  Comparative Analysis (Jobs vs. Courses Recommendations)
