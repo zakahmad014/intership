@@ -100,6 +100,41 @@ Conclusion:</br></br>
 To build a unified Career Platform that recommends both Jobs and Training Courses, DeepFM is the smartest choice.
 It offers the best balance of accuracy and stability across both strict and flexible data domains.
 
+<h2>task 7 :</h2>
+
+I used the MovieLens (ml-100k) dataset to test our models on a highly diverse, entertainment-based domain (Soft Preferences) and compared the results against the Jobs.
+
+Task 7 Results (Movies):
+
+DCN: 0.0576 (Winner)
+
+xDeepFM: 0.0554 (Very close second)
+
+DeepFM: 0.0546
+
+FM: 0.0484 (Lowest performance)
+
+<img width="1256" height="554" alt="task7_loss" src="https://github.com/user-attachments/assets/701f00d2-3bdb-4de4-89e8-5deb0fdac2d1" />
+
+<img width="1253" height="551" alt="task7_valid_score" src="https://github.com/user-attachments/assets/60649094-a7d9-48b2-a623-6b441637100d" />
+</br>
+</br>
+
+
+Comparative Analysis (Jobs vs Movies):
+
+
+The architectural differences between the models clearly dictate their success based on the dataset:
+
+xDeepFM / FM (Best for Jobs): In Task 5, job matching required strict, logical rules (e.g., specific skills). xDeepFM and FM excel at capturing these explicit, clear-cut features. However, simple FM failed to capture the deep complexities of movie tastes.
+
+DCN (Best for Movies): In Task 5, DCN failed completely due to the strict nature of job data. However, MovieLens relies on dense, non-linear psychological preferences (e.g., liking a specific genre + director combo). DCN’s deep feature crossing architecture is built precisely to uncover these hidden behavioral patterns, making it the clear winner here.
+
+Conclusion:
+
+
+There is no "one-size-fits-all" model. For strict matching (HR/Jobs), xDeepFM is optimal. For complex behavioral matching (Entertainment), DCN or deep neural models take the lead.
+
 
 
 
