@@ -136,5 +136,21 @@ Conclusion:
 There is no "one-size-fits-all" model. For strict matching (HR/Jobs), xDeepFM is optimal. For complex behavioral matching (Entertainment), DCN or deep neural models take the lead.
 
 
+<h2>task 8 :</h2>
+
+i use task 5 trainer. open cmd and write "py -m streamlit run task 8.py.
 
 
+<h2>task 9 :</h2>
+
+<img width="1920" height="940" alt="task9-1" src="https://github.com/user-attachments/assets/2928a3d6-c868-46b8-af85-ec3d30d22c4f" />
+
+<img width="1920" height="930" alt="task9-2" src="https://github.com/user-attachments/assets/bdb308d7-15d2-4072-b933-99cd70a9291a" />
+
+<img width="1920" height="939" alt="task9-3" src="https://github.com/user-attachments/assets/4d2f5627-c335-4cec-9e94-435762c59905" />
+
+<img width="1920" height="933" alt="task9-4" src="https://github.com/user-attachments/assets/22ed3d8f-659d-43db-8188-e83e55182906" />
+
+<img width="1920" height="943" alt="task9-5" src="https://github.com/user-attachments/assets/341c9aed-175e-4989-a9cc-6e49cb795241" />
+
+<img width="1920" height="929" alt="task0-64" src="https://github.com/user-attachments/assets/258ed750-788e-4518-a12f-5fe88de7d05c" />
